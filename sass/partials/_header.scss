@@ -37,6 +37,11 @@ header:before{
     
 
 }
+@media (min-width: $mobile ){
+    header{
+        background-size: 60%
+    }
+}
 
 @media (min-width: $tablet ){
     .main{
@@ -63,5 +68,18 @@ header:before{
         top: -15%;
         left: -50%;
     }
+    header{
+        background-size: 60%
+    }
 
+}
+@media (min-width: $horizontal ){
+    header{
+        background-size: 50%
+    }
+}
+@media (min-width: $horizontal ){
+    header{
+        background-size: 40%
+    }
 }

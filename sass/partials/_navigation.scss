@@ -50,12 +50,7 @@ nav a:hover{
     .navlinks{
         margin: 150px 0 0 0;
     }
-    nav a{
-        color: $fntGrey;
-    }
-    .nav__item--lined{
-        border: 2px solid $fntGrey;
-    }   
+    
 
 }
 @media (max-width: $tablet){
@@ -70,6 +65,12 @@ nav a:hover{
         text-align: center;
         padding: 0;
     }
+    nav a{
+        color: $fntGrey;
+    }
+    .nav__item--lined{
+        border: 2px solid $fntGrey;
+    }   
 }
 @media (min-width: $tablet ){
     nav{
