@@ -18,7 +18,7 @@ header:before{
     position: absolute;
     width: 100%;
     height: 100%;
-    top: -25%;
+    top: -5%;
     left: -50%;
     z-index: -1;
     background-image: url(../img/texture2.svg);
@@ -40,6 +40,10 @@ header:before{
 @media (min-width: $mobile ){
     header{
         background-size: 60%
+    }
+    header:before{
+        top: -12%;
+        left: -50%;
     }
 }
 

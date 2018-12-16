@@ -71,6 +71,9 @@ nav a:hover{
     .nav__item--lined{
         border: 2px solid $fntGrey;
     }   
+    nav a:hover{
+        border-bottom: 2px solid $fntGrey;
+    }
 }
 @media (min-width: $tablet ){
     nav{
