@@ -20,6 +20,11 @@ body{
 section{
     padding: 2em 0;
 }
+.hidden{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+}
 @media (min-width: $mobile ) {
     .container{
         margin: 0 3em;

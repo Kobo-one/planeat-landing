@@ -1,4 +1,11 @@
-.feature__item--button{
+.feature__item--button1{
+    background-color: $green;
+    color: $fntWhite;
+    padding: 0.5em 1em;
+    border-radius: $radSmall;
+    text-decoration: none;
+}
+.feature__item--button2{
     background-color: $green;
     color: $fntWhite;
     padding: 0.5em 1em;
