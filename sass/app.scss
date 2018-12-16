@@ -14,7 +14,9 @@
 @import 'partials/features';
 @import 'partials/subscribe';
 
-
+body{
+    overflow-x: hidden;
+}
 section{
     padding: 2em 0;
 }

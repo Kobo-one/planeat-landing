@@ -9,3 +9,30 @@
 .about img{
     max-width: 250px;
 }
+.about p{
+    max-width: 300px;
+    text-align: left;
+}
+@media(min-width: $tablet){
+    .about{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:  70px auto;
+        grid-column-gap: 9px;
+    }
+    .about h2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .about__text{
+        text-align: left;
+    }
+    .about img{
+        justify-self: end;
+    }
+}
+@media(min-width: $tablet){
+    .about{
+        grid-column-gap: 200px;
+    }
+}
