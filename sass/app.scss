@@ -1,9 +1,11 @@
 //theme
+@import 'normalise';
 @import 'variables';
 
 // components
 @import 'components/fontstyles';
 @import 'components/buttons';
+@import 'components/hamburger';
 
 // partials
 @import 'partials/navigation';
@@ -12,19 +14,29 @@
 @import 'partials/features';
 @import 'partials/subscribe';
 
-
-@media (min-width: 380px ) {
+body{
+    overflow-x: hidden;
+}
+section{
+    padding: 2em 0;
+}
+.hidden{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+}
+@media (min-width: $mobile ) {
     .container{
         margin: 0 3em;
     }
 
 }
-@media (min-width: 980px ) {
+@media (min-width: $horizontal ) {
     .container{
         margin: 0 10%;
     }
 }
-@media (min-width: 1200px ) {
+@media (min-width: $laptop ) {
     .container{
         margin: 0 20%;
     }

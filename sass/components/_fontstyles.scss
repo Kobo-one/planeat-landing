@@ -13,7 +13,7 @@ h3{
     font-size: $moSubtitle;
 }
 
-@media (min-width: 980px ) {
+@media (min-width: $horizontal ) {
     body{
         font-size: $normal;
     }
