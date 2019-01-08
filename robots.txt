@@ -1,0 +1,4 @@
+User-agent: *
+
+
+Sitemap: https://planeat.app/sitemap.xml
