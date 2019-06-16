@@ -47,11 +47,6 @@
         <img class="header__logo header-inner" src="/img/detailed logo.svg" alt="logo">
         
         <nav class="header-inner">
-            <div class="hamburger">
-                <div class="hamline top" ></div>
-                <div class="hamline middle" ></div>
-                <div class="hamline bottom" ></div>
-           </div>
             <ul class="navlinks hidemobile" id="indexnav">
                 <li><a class="menu" href="#home">HOME</a></li>
                 <li><a class="menu" href="#about">ABOUT</a></li>
@@ -60,8 +55,8 @@
             </ul>  
         </nav>
         <div class="header__image-blue header-inner"></div>
-        <img class="header__image-blue-cloud header-inner" src="/img/blue cloud.png" alt="blue cloud">
-        <img class="header__image-white-cloud header-inner" src="/img/white cloud.png" alt="white cloud">
+        <img class="cloud header__image-blue-cloud header-inner animate" src="/img/blue cloud.svg" alt="blue cloud">
+        <img class="cloud header__image-white-cloud header-inner animate" src="/img/white cloud.svg" alt="white cloud">
         <img class="header__image-landscape header-inner" src="/img/landscape.png" alt="landscape">
         <div class="main header-inner">
 
@@ -77,7 +72,7 @@
     <div class="container">
         <section id="about" class="about">
             <h2>About</h2>
-            <img src="img/mockup.png" alt="phone">
+            <img data-src="img/mockup.png" alt="phone" class="lazy">
             <div class="about__text">
                     <h3>I dont want to eat this.</h3>
                     <p>Young children tend to dislike trying out new food. It makes cooking for them stressful at times. You do not want a fight, but you also want your kids to try a variety of food and stay healthy. Especially because bad eating habits can lead to eating disorder in adulthood.</p>
@@ -90,23 +85,23 @@
             <h2>Features</h2>
             <div class="feature__list">
                     <div class="feature__item item1">
-                            <img src="img/variety.png" alt="variety image">
+                            <img data-src="img/variety.png" alt="variety image" class="lazy">
                             <h3>Trying new food</h3>
                             <p>According to research kids have to try an ingredient up to 15 times before accepting it. Planeat helps you keep track of your kids’ growth to keep both you and your kids motivated.</p>
                         </div>
                         <div class="feature__item">
-                            <img src="img/planning.png" alt="suggestions image">
+                            <img class="lazy" data-src="img/planning.png" alt="suggestions image">
                             <h3>Plan your meals</h3>
                             <p>Sick of last-minute planning? Having trouble keeping track of what your kids already ate? Planeat gives you an overview of what your kids ate, how well they ate and what’s on the menu the next coming days. </p>
                             
                         </div>
                         <div class="feature__item">
-                            <img src="img/shoppingbag.png" alt="shoppinglist image">
+                            <img class="lazy" data-src="img/shoppingbag.png" alt="shoppinglist image">
                             <h3>Never forget what to buy</h3>
                             <p>Humans makes mistakes sometimes. Planeat helps you prevent forgetting to buy that one important ingredient to make your favorite meals. </p>
                         </div>
                         <div class="feature__item item2">
-                            <img src="img/gamification.png" alt="gamification coins image">
+                            <img class="lazy" data-src="img/gamification.png" alt="gamification coins image">
                             <h3>Gamify your meals</h3>
                             <p>We know children are hard to convince. With our gamification system we try to give children input while maintaining your control on what will be put on the table. Give missions to your children and make their meals a fun and interactive experience.</p>
                         </div>
@@ -119,7 +114,7 @@
         </section>
         <section id="subscribe" class="subscribe">
             <h2>Away with worries on the dining table!</h2>
-            <img src="img/subscribe_logo.svg" alt="big logo with envelope">
+            <img class="lazy" data-src="img/subscribe_logo.svg" alt="big logo with envelope">
             <h3>Subscribe now!</h3>
             <!-- Begin Mailchimp Signup Form -->
             <div id="mc_embed_signup">

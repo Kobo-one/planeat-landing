@@ -20,8 +20,16 @@ body{
     background-image: url(../img/foodtexture.svg);
     background-size : 120%
 }
+img {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+img.lazy {
+	opacity: 0;
+}
 .container {
-    margin: 0 1em;
+    margin: 0 1em; 
 }
 section {
     padding: 2em 0;
