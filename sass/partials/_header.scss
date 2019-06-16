@@ -3,6 +3,12 @@ header{
     height: 100vh;
 }
 
+.header__logo {
+    width: 50px;
+    top: 1em;
+    left: 1em;
+}
+
 .header-inner {
     position: absolute;
 }
