@@ -1,7 +1,7 @@
 body{
     font-family: 'Rubik', sans-serif;
-    font-size: $moNormal;
-    color: $fntGrey;
+    font-size  : $moNormal;
+    color      : $fntGrey;
 }
 h1{
     font-size: $moHeader;
@@ -11,6 +11,10 @@ h2{
 }
 h3{
     font-size: $moSubtitle;
+    color    : $fntOrange;
+}
+.main-description {
+    color: white;
 }
 
 @media (min-width: $horizontal ) {

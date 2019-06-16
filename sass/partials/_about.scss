@@ -1,29 +1,29 @@
 .about{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
+    display        : flex;
+    align-content  : center;
+    flex-direction : column;
+    align-items    : center;
     justify-content: center;
-    text-align: center;
+    text-align     : center;
 }
 .about img{
     max-width: 250px;
 }
 .about p{
-    max-width: 300px;
+    max-width : 300px;
     text-align: left;
 }
 @media(min-width: $tablet){
     .about{
-        display: grid;
+        display              : grid;
         grid-template-columns: 40% auto;
-        grid-template-rows:  70px auto;
-        grid-column-gap: 9px;
-        padding: 10%
+        grid-template-rows   : 70px auto;
+        grid-column-gap      : 9px;
+        padding              : 10%
     }
     .about h2{
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end  : 3;
     }
     .about__text{
         text-align: left;
@@ -34,6 +34,6 @@
 }
 @media(min-width: $tablet){
     .about{
-        grid-column-gap: 200px;
+        grid-column-gap: 50px;
     }
 }
