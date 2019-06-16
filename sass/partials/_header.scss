@@ -38,7 +38,9 @@ header{
     position: absolute;
     height: 80vh;
     min-width: 130%;
-
+    -webkit-animation: movecloudsreverse 20s linear infinite;
+	-moz-animation: movecloudsreverse 20s linear infinite;
+	-o-animation: movecloudsreverse 20s linear infinite;
 }
 
 .header__image-white-cloud {
@@ -48,6 +50,9 @@ header{
     height: 70vh;
     min-width: 130%;
     bottom: 0;
+    -webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
 }
 
 @media (max-width: $mobile ) {
@@ -88,8 +93,14 @@ header{
 
 
 }
-@media (min-width: $horizontal ){
-
+@keyframes moveclouds {
+    0%{margin-left: 0}
+    50%{margin-left: -200px}
+    100%{margin-left: 0}
 }
-@media (min-width: $horizontal ){
+
+@keyframes movecloudsreverse {
+    0%{margin-left: -100px}
+    50%{margin-left: 0px}
+    100%{margin-left: -100px}
 }
