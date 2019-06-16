@@ -37,6 +37,7 @@ header{
     z-index: -10;
     position: absolute;
     height: 80vh;
+    top: 5vh;
     min-width: 130%;
     -webkit-animation: movecloudsreverse 20s linear infinite;
 	-moz-animation: movecloudsreverse 20s linear infinite;
@@ -46,10 +47,10 @@ header{
 .header__image-white-cloud {
     z-index: -9;
     position: absolute;
-    top: 5vh;
+
     height: 70vh;
     min-width: 130%;
-    bottom: 0;
+    bottom: 10vh;
     -webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
 	-o-animation: moveclouds 20s linear infinite;
