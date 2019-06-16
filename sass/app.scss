@@ -1,6 +1,7 @@
 //theme
 @import 'normalise';
 @import 'variables';
+@import 'animate';
 
 // components
 @import 'components/fontstyles';
@@ -24,7 +25,14 @@ img {
 	opacity: 1;
 	transition: opacity 0.3s;
 }
-
+p{
+    opacity: 0;
+    transition: ease all 1s;
+    
+    &.fadeIn{
+      opacity: 1;
+    }
+}
 img.lazy {
 	opacity: 0;
 }

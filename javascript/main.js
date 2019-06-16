@@ -63,5 +63,19 @@ document.addEventListener("DOMContentLoaded", function() {
         el.removeClass("animate");
       }
     });
+  });
+
+  $(window).scroll(function(event) {
+  
+    $("p").each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass("fadeIn"); 
+      } else {
+        el.removeClass("fadeIn");
+      }
+    });
     
   });
+
+  
